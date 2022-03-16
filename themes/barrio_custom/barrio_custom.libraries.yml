@@ -1,0 +1,45 @@
+global-styling:
+  version: VERSION
+  js:
+    js/global.js: {}
+  css:
+    base:
+      css/base/styles.css: {}
+      css/base/colors.css: {}
+    layout:
+      css/layout/layout.css: {} 
+      # css/layout/responsive.css: {}
+    component:
+      css/components/carousel.css: {}
+      css/components/fact.css: {}
+      css/components/portfolio.css: {}
+      css/components/about_us.css: {}
+      css/components/services.css: {}
+      css/components/call_to_action.css: {}
+      css/components/our_skills.css: {}
+      css/components/navbar.css: {}
+      css/components/button.css: {}
+      css/components/views.css: {}
+bootstrap:
+  js:
+    /libraries/popper.js/dist/umd/popper.min.js: {}
+    /libraries/bootstrap/dist/js/bootstrap.min.js: {}
+  css:
+    component:
+      /libraries/bootstrap/dist/css/bootstrap.min.css: {}
+bootstrap_cdn:
+  js:
+    //cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js: {}
+    //stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js: {}
+  css:
+    component:
+      //stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css: {}
+color.preview:
+  version: VERSION
+  css:
+    theme:
+      color/preview.css: {}
+  js:
+    color/preview.js: {}
+  dependencies:
+    - color/drupal.color

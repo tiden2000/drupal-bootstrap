@@ -1,0 +1,13 @@
+.block-views-blockcarousel-view-block-1 {
+    margin-bottom: 50px;
+}
+
+.block-views-blockcarousel-view-block-1 a {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.block-views-blockcarousel-view-block-1 img {
+    filter: brightness(50%);
+}

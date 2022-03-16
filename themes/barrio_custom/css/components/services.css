@@ -1,0 +1,46 @@
+#block-service {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+#block-service h2 {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 1000;
+    width: 200px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid green;
+}
+
+#block-service p {
+    font-size: 16px;
+}
+
+.block-views-blockservice-view-block-1 {
+    margin-bottom: 50px;
+}
+
+.block-views-blockservice-view-block-1 .row {
+    width: 100%;
+    padding-left: 20px;
+    margin: auto;
+    text-align: left;
+}
+
+.block-views-blockservice-view-block-1 .row img, .block-views-blockservice-view-block-1 .row a, .block-views-blockservice-view-block-1 .row p {
+    margin: 10px;
+}
+
+.block-views-blockservice-view-block-1 .row p {
+    margin-left: 80px;
+}
+
+.block-views-blockservice-view-block-1 .row a {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.block-views-blockservice-view-block-1 .row .column-content {
+    width: 105%;
+}
