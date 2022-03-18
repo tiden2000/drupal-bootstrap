@@ -1,5 +1,23 @@
-.navbar-expand-xl {
+#navbar-top {
   background-color: black;
+}
+#navbar-main {
+  position: absolute;
+  z-index: 9998!important;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.navbar-brand {
+  padding-left: 10px;
+  border-left: 3px solid #18d26e;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.navbar-nav {
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .navbar a {

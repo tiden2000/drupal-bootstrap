@@ -1,10 +1,5 @@
 /* ---------- Color Module Styles ----------- */
 
-body {
-  color: #3b3b3b;
-  background: #292929;
-}
-
 #page,
 #main-wrapper,
 .region-primary-menu .menu-item a.is-active,
@@ -21,24 +16,9 @@ body {
   border-bottom-color: #fff;
 }
 
-#navbar-top {
-  background-color: #055a8e;
-}
-
-#navbar-main {
-  background-color: #1d84c3;
-}
-
 a,
 .link {
   color: #0071b3;
-}
-
-a:hover,
-a:focus,
-.link:hover,
-.link:focus {
-  color: #018fe2;
 }
 
 a:active,

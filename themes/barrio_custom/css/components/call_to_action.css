@@ -1,48 +1,49 @@
 #block-calltoaction {
-    text-align: center;
-    margin-bottom: 50px;
-    margin: auto;
-    width: 100%;
-    background: #eaeaea url(../../images/call_to_action_bg.jpg);
-    color: white;
-    display:flex;justify-content:center;align-items:center;height:330px;  /* Center content */
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+  width: 100%;
+  background: #eaeaea url(../../images/call_to_action_bg.jpg);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 330px;  /* Center content */
 }
 
 #block-calltoaction h2 {
-    font-size: 30px;
-    font-weight: 5000;
-    color: white;
+  font-size: 30px;
+  font-weight: 5000;
+  color: white;
 }
 
 #block-calltoaction p {
-    font-size: 16px;
-    padding-bottom: 20px;
+  font-size: 16px;
+  padding-bottom: 20px;
 }
 
-/* From cssbuttons.io */
 #block-calltoaction a {
-    padding: 1.3em 3em;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-weight: 500;
-    color: #000;
-    background-color: #fff;
-    border: none;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
 }
-   
 #block-calltoaction a:hover {
-    background-color: #2EE59D;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-    color: #fff;
-    transform: translateY(-7px);
+  background-color: #2ee59d;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
 }
 
 #block-calltoaction a:active {
-    transform: translateY(-1px);
+  transform: translateY(-1px);
 }

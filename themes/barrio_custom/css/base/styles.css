@@ -30,9 +30,14 @@ body {
 	animation: fadein 2s;
 }
 
+body a:hover {
+  color: #18d26e;
+  text-decoration: none
+}
+
 a {
-  color: #90A860;
   text-decoration: none;
+  transition: color 0.5s;
 }
 
 h1,

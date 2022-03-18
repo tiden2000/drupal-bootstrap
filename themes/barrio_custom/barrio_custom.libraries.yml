@@ -10,6 +10,7 @@ global-styling:
       css/layout/layout.css: {} 
       # css/layout/responsive.css: {}
     component:
+      css/components/footer.css: {}
       css/components/carousel.css: {}
       css/components/fact.css: {}
       css/components/portfolio.css: {}
